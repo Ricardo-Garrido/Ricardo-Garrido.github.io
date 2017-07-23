@@ -99,7 +99,7 @@ img::-moz-selection {
 
 .navbar-custom {
   /* background: #F5F5F5; */
-  background: #2B69BC;
+  background: rgb(0, 180, 161);
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -191,7 +191,8 @@ img::-moz-selection {
 
 footer {
   padding: 30px 0;
-  background: #2B69BC;
+  /* background: #F5F5F5; */
+  background: rgb(0, 180, 161);
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
