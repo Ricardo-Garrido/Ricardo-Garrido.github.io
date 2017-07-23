@@ -10,6 +10,8 @@ show-avatar: false
 comments: true
 social-share: true
 ---
+
+
 ## List and Delete
 
 #### **Powershell**
@@ -49,7 +51,9 @@ Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -
 
 ```
 
-#### **Command Line**
+####
+
+**Command Line**
 
 **List event logs**
 
