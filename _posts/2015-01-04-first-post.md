@@ -10,11 +10,11 @@ show-avatar: false
 comments: true
 social-share: true
 ---
-
-
 ## List and Delete
 
-### **List event logs**
+#### **Powershell**
+
+**List event logs**
 
 ```
 Get-EventLog -LogName *
@@ -49,7 +49,8 @@ Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -
 
 ```
 
-###Command Line
+#### **Command Line**
+
 **List event logs**
 
 ```
@@ -68,4 +69,5 @@ wevtutil cl system
 
 ```
 for /f %x in ('wevtutil el') do wevtutil cl "%x"
+
 ```
