@@ -25,28 +25,24 @@ Clear-EventLog system
 
 ```language-powershell
 Clear-EventLog system
-
 ```
 
 **Clear all event logs on the local computer**
 
 ```language-powershell
 Get-EventLog -LogName * | ForEach { Clear-EventLog $_.Log }
-
 ```
 
 or
 
 ```language-cmd
 wevtutil el | Foreach-Object {wevtutil cl "$_"}
-
 ```
 
 **Clear all event logs on a remote computer**
 
 ```language-powershell
 Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -ComputerName $ComputerName $_.Log }
-
 ```
 
 **Command Line**
@@ -55,19 +51,16 @@ Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -
 
 ```language-cmd
 wevtutil el
-
 ```
 
 **Clear a single event log (e.g. system)**
 
 ```language-cmd
 wevtutil cl system
-
 ```
 
 **Clear all event logs**
 
 ```language-cmd
 for /f %x in ('wevtutil el') do wevtutil cl "%x"
-
 ```
