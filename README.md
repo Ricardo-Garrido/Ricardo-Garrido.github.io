@@ -1,3 +1,3 @@
-# kootenpv.github.io
+# ricardo-garrido.github.io
 
-Pascal van Kooten's github.io website.
+Ricardo Garrido's github.io website.
