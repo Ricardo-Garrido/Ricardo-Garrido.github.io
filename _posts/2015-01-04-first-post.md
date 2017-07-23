@@ -16,28 +16,16 @@ social-share: true
 
 **List event logs**
 
-```language-powershell
+<pre><code class="language-powershell">
 Get-EventLog -LogName *
 Clear-EventLog system
-```
+</code></pre>
 
-**List event logs**
-
-```language-powershell
-Get-EventLog -LogName *
-Clear-EventLog system
-```
-**List event logs**
-
-```language-powershell
-Get-EventLog -LogName *
-Clear-EventLog system
-```
 **Clear a single event log (e.g. system)**
 
-```language-powershell
+<pre><code class="language-powershell">
 Clear-EventLog system
-```
+</code></pre>
 
 **Clear all event logs on the local computer**
 
