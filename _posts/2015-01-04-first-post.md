@@ -51,8 +51,6 @@ Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -
 
 ```
 
-####
-
 **Command Line**
 
 **List event logs**
