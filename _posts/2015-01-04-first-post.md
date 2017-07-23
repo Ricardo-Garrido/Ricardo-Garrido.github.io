@@ -1,11 +1,71 @@
 ---
 layout: post
-title: First post!
-image: "/img/hello_world.jpeg"
-tags:
-- random
-- exciting-stuff
-date: '2015-01-04T00:00:00.000+00:00'
+title: Event Logs
+image: ''
+tags: []
+date: 2016-06-14 00:00
+subtitle: ''
+bigimg: ''
+show-avatar: false
+comments: false
+social-share: false
 ---
 
-This is my first post, how exciting!
+
+## List and Delete
+
+### **List event logs**
+
+```
+Get-EventLog -LogName *
+
+```
+
+**Clear a single event log (e.g. system)**
+
+```
+Clear-EventLog system
+
+```
+
+**Clear all event logs on the local computer**
+
+```
+Get-EventLog -LogName * | ForEach { Clear-EventLog $_.Log }
+
+```
+
+or
+
+```
+wevtutil el | Foreach-Object {wevtutil cl "$_"}
+
+```
+
+**Clear all event logs on a remote computer**
+
+```
+Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -ComputerName $ComputerName $_.Log }
+
+```
+
+###Command Line
+**List event logs**
+
+```
+wevtutil el
+
+```
+
+**Clear a single event log (e.g. system)**
+
+```
+wevtutil cl system
+
+```
+
+**Clear all event logs**
+
+```
+for /f %x in ('wevtutil el') do wevtutil cl "%x"
+```
