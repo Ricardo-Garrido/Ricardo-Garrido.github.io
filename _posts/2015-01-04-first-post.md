@@ -7,8 +7,8 @@ date: 2016-06-14 00:00
 subtitle: ''
 bigimg: ''
 show-avatar: false
-comments: false
-social-share: false
+comments: true
+social-share: true
 ---
 
 
