@@ -10,17 +10,15 @@ show-avatar: false
 comments: true
 social-share: true
 ---
-
-
 ## List and Delete
 
 #### **Powershell**
 
 **List event logs**
 
-```
+```language-powershell
 Get-EventLog -LogName *
-
+Clear-EventLog system
 ```
 
 **Clear a single event log (e.g. system)**
