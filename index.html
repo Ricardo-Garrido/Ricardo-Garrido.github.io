@@ -4,7 +4,6 @@ title: Infrastructure developer
 subtitle: A collection of topics regarding hybrid cloud, configuration and security
   management
 ---
-
 <!-- <div class="main-explain-area jumbotron"> -->
 <!--   <p>Welcome!</p> -->
 <!--   <p>This page is still under construction</p> -->
@@ -15,12 +14,12 @@ subtitle: A collection of topics regarding hybrid cloud, configuration and secur
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-      <h2 class="post-title">{{ post.title }}</h2>
+      <h3>{{ post.title }}</h3>
 
       {% if post.subtitle %}
-      <h3 class="post-subtitle">
+      <h4 class="post-subtitle">
         {{ post.subtitle }}
-      </h3>
+      </h4>
       {% endif %}
     </a>
 
@@ -37,16 +36,16 @@ subtitle: A collection of topics regarding hybrid cloud, configuration and secur
   {% endfor %}
 </div>
 
-{% if paginator.total_pages > 1 %}
+{% if paginator.total_pages &gt; 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">← Newer Posts</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts →</a>
   </li>
   {% endif %}
 </ul>
