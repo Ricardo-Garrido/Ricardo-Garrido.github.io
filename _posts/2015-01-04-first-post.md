@@ -29,22 +29,20 @@ Clear-EventLog system
 <pre><code class="language-powershell">
 Get-EventLog -LogName * | ForEach { Clear-EventLog $_.Log }
 </code></pre>
-
 or
-
 <pre><code class="language-cmd">
 wevtutil el | Foreach-Object {wevtutil cl "$_"}
 </code></pre>
 
 **Clear all event logs on a remote computer**
-<pre><code class="language-powershell">
+<pre class="line-numbers"><code class="language-powershell">
 Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -ComputerName $ComputerName $_.Log }
 </code></pre>
 
 **Command Line**
 
 **List event logs**
-<pre><code class="language-cmd">
+<pre><code class="language-commandline">
 wevtutil el
 </code></pre>
 
