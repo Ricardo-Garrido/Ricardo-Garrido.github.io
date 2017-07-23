@@ -1,14 +1,14 @@
 ---
-bigimg: ''
-comments: true
-date: 2017-07-23 17:59
-image: ''
 layout: post
 show-avatar: true
+comments: true
 social-share: true
-subtitle: List, search, delete,...
-tags: []
 title: Event Log Manipulation
+date: 2017-07-23 18:38
+image: ''
+tags: []
+subtitle: ''
+bigimg: ''
 ---
 ## List and Delete
 
