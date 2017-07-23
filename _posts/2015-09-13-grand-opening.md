@@ -2,6 +2,7 @@
 layout: post
 title: Grand opening
 subtitle: Website went live 13-09-2015
+date: '2015-09-13T00:00:00.000+00:00'
 ---
 
 This will be the place where I will write about things that interest me.

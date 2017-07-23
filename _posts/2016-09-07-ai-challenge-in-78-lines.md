@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI challenge in 78 lines (top 5%)
+date: '2016-09-07T00:00:00.000+00:00'
 ---
 
 ## The challenge (Tron)

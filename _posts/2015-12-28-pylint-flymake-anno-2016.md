@@ -2,6 +2,7 @@
 layout: post
 title: Pylint and Flymake Anno 2016
 subtitle: No need for PEP8 checking / PyFlakes / PyChecker / Flake8
+date: '2015-12-28T00:00:00.000+00:00'
 ---
 
 I noticed that pylint and flymake do not play so nicely in current Emacs.

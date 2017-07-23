@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alpha Preview of EMacs Python (EMP)
-
+date: '2016-01-01T00:00:00.000+00:00'
 ---
 
 **STATUS: PRE-ALPHA** -- did not check for bugs yet

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Three awesome Open-Source projects discovered
+date: '2016-04-28T00:00:00.000+00:00'
 ---
 
 I've realised today that the following Open-Source Generic Command-Line tools (developed in Python) are great "lifehacks". Without further ado:
