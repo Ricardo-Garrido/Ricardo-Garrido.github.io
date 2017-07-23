@@ -30,28 +30,28 @@ Clear-EventLog system
 Get-EventLog -LogName * | ForEach { Clear-EventLog $_.Log }
 </code></pre>
 or
-<pre><code class="language-cmd">
+<pre><code>
 wevtutil el | Foreach-Object {wevtutil cl "$_"}
 </code></pre>
 
 **Clear all event logs on a remote computer**
-<pre class="line-numbers"><code class="language-powershell">
+<pre><code class="language-powershell">
 Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -ComputerName $ComputerName $_.Log }
 </code></pre>
 
 **Command Line**
 
 **List event logs**
-<pre class="command-line"><code data-prompt="C:\">
+<pre><code>
 wevtutil el
 </code></pre>
 
 **Clear a single event log (e.g. system)**
-<pre><code class="language-cmd">
+<pre><code>
 wevtutil cl system
 </code></pre>
 
 **Clear all event logs**
-<pre><code class="language-cmd">
+<pre><code class="bash">
 for /f %x in ('wevtutil el') do wevtutil cl "%x"
 </code></pre>
