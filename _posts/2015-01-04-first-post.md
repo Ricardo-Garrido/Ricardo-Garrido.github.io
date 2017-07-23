@@ -42,7 +42,7 @@ Get-EventLog -ComputerName $ComputerName -LogName * | ForEach { Clear-EventLog -
 **Command Line**
 
 **List event logs**
-<pre><code class="language-command-line">
+<pre class="command-line" data-prompt="C:\"><code>
 wevtutil el
 </code></pre>
 
