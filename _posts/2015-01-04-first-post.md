@@ -21,6 +21,18 @@ Get-EventLog -LogName *
 Clear-EventLog system
 ```
 
+**List event logs**
+
+```language-powershell
+Get-EventLog -LogName *
+Clear-EventLog system
+```
+**List event logs**
+
+```language-powershell
+Get-EventLog -LogName *
+Clear-EventLog system
+```
 **Clear a single event log (e.g. system)**
 
 ```language-powershell
