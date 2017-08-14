@@ -32,10 +32,7 @@ h3,h4,h5,h6 {
 a {
   color: #008AFF;
 }
-a:hover,
-a:focus {
-  color: #0085a1;
-}
+
 blockquote {
   color: #808080;
   font-style: italic;
@@ -69,12 +66,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: rgb(133, 200, 255);
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: rgb(133, 200, 255);
 }
 img::selection {
   color: white;
