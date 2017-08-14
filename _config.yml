@@ -23,22 +23,10 @@ description: A collection of topics regarding hybrid cloud, configuration and se
 
 # List of links in the navigation bar
 navbar-links:
-  Deploying:
-    - Placeholder: "aboutme"
-    - Placeholder: "aboutme"
-    - Placeholder: "aboutme"
-  Monitoring:
-    - Placeholder: "aboutme"
-    - Placeholder: "aboutme"
-    - Placeholder: "aboutme"
-  Securing:
-    - Active Directory: "securing-active-directory-md"
-    - Placeholder: "aboutme"
-    - Workstations: "aboutme"
-  Tuning:
-    - Exchange: "tuning-exchange"
-    - Remote Desktop Services: "tuning-rds"
-    - SQL: "tuning-sql"
+  Deploying: "securing-active-directory-md"
+  Monitoring: "securing-active-directory-md"
+  Securing: "securing-active-directory-md"
+  Tuning: "securing-active-directory-md"
   About Me: "aboutme"
   
 # Image to show in the navigation bar - image must be a square (width = height)
