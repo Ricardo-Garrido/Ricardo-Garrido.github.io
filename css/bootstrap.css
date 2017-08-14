@@ -1140,7 +1140,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgb(0, 120, 215);
 }
 .sr-only {
   position: absolute;
@@ -1390,7 +1390,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgb(0, 120, 215);
 }
 ul,
 ol {
@@ -1458,7 +1458,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eee;
+  border-left: 5px solid rgb(0, 120, 215);
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -1483,7 +1483,7 @@ blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
   text-align: right;
-  border-right: 5px solid #eee;
+  border-right: 5px solid rgb(0, 120, 215);
   border-left: 0;
 }
 .blockquote-reverse footer:before,
@@ -2565,7 +2565,7 @@ output {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   cursor: not-allowed;
-  background-color: #eee;
+  background-color: rgb(0, 120, 215);
   opacity: 1;
 }
 textarea.form-control {
@@ -3912,7 +3912,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eee #eee #ddd;
+  border-color: rgb(0, 120, 215) rgb(0, 120, 215) #ddd;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -4631,7 +4631,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   color: #23527c;
-  background-color: #eee;
+  background-color: rgb(0, 120, 215);
   border-color: #ddd;
 }
 .pagination > .active > a,
@@ -4707,7 +4707,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: rgb(0, 120, 215);
 }
 .pager .next > a,
 .pager .next > span {
@@ -4841,7 +4841,7 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: rgb(0, 120, 215);
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5154,7 +5154,7 @@ a.list-group-item:focus {
 .list-group-item.disabled:focus {
   color: #777;
   cursor: not-allowed;
-  background-color: #eee;
+  background-color: rgb(0, 120, 215);
 }
 .list-group-item.disabled .list-group-item-heading,
 .list-group-item.disabled:hover .list-group-item-heading,
