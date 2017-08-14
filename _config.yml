@@ -23,12 +23,12 @@ description: A collection of topics regarding hybrid cloud, configuration and se
 
 # List of links in the navigation bar
 navbar-links:
-  Deploying:
+  Automation:
     - Active Directory: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
-  Securing:
+  Configuration:
     - Active Directory: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
