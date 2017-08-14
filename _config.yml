@@ -23,26 +23,31 @@ description: A collection of topics regarding hybrid cloud, configuration and se
 
 # List of links in the navigation bar
 navbar-links:
-  Deploying:
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-  Monitoring:
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Exchange: "http://deanattali.com/beautiful-jekyll/"
-    - SQL: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-  Securing:
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-  Tuning:
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+  Management:
+    Deploying:
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+    Monitoring:
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Exchange: "http://deanattali.com/beautiful-jekyll/"
+      - SQL: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+    Securing:
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+    Tuning:
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+  Security:
+    - Defense: "http://deanattali.com/beautiful-jekyll/"
+    - Offense: "http://deanattali.com/beautiful-jekyll/"
+    - Resources: "http://deanattali.com/beautiful-jekyll/"
   Scripting:
     - Powershell 101: "http://deanattali.com/beautiful-jekyll/"
     - Powershell DSC: "http://deanattali.com/beautiful-jekyll/"
