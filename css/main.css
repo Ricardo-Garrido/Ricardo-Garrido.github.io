@@ -118,7 +118,7 @@ img::-moz-selection {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: rgb(0, 120, 215);
+  color: #FFFFFF;
 }
 
 @media only screen and (min-width: 768px) {
