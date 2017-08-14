@@ -99,7 +99,8 @@ img::-moz-selection {
 
 .navbar-custom {
   /* background: #F5F5F5; */
-  background: rgb(0, 180, 161);
+  /* background: rgb(0, 180, 161); */
+  background: rgb(0, 120, 215);
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
