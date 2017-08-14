@@ -4,7 +4,7 @@ show-avatar: true
 comments: true
 social-share: true
 title: Event Log Manipulation
-date: 2017-07-23 18:38
+date: 2017-07-23 00:00:00 +0000
 image: ''
 tags: []
 subtitle: ''
