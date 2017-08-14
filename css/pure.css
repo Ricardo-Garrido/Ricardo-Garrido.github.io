@@ -722,7 +722,7 @@ a.pure-button-selected {
 .pure-form input[readonly],
 .pure-form select[readonly],
 .pure-form textarea[readonly] {
-    background: #eee; /* menu hover bg color */
+    background: rgb(0, 120, 215); /* menu hover bg color */
     color: #777; /* menu text color */
     border-color: #ccc;
 }
@@ -1477,7 +1477,7 @@ this the same font stack that Normalize.css sets for the `body`.
 
 .pure-menu li a:hover,
 .pure-menu li a:focus {
-    background: #eee;
+    background: rgb(0, 120, 215);
 }
 
 /* DISABLED STATES */
