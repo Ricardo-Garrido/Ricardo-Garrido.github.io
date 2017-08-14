@@ -23,36 +23,30 @@ description: A collection of topics regarding hybrid cloud, configuration and se
 
 # List of links in the navigation bar
 navbar-links:
-  Management:
-    Deploying:
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    Monitoring:
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Exchange: "http://deanattali.com/beautiful-jekyll/"
-      - SQL: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    Securing:
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-    Tuning:
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
-      - Active Directory: "http://deanattali.com/beautiful-jekyll/"
+  Deploying:
+    - Active Directory: "https://itops.pt/"
+    - Active Directory: "https://itops.pt/"
+    - Active Directory: "https://itops.pt/"
+    - Active Directory: "https://itops.pt/"
+  Monitoring:
+    - Active Directory: "https://itops.pt/"
+    - Exchange: "https://itops.pt/"
+    - SQL: "https://itops.pt/"
+    - Active Directory: "https://itops.pt/"
+  Securing:
+    - Active Directory: "https://itops.pt/"
+    - Active Directory: "https://itops.pt/"
+    - Active Directory: "https://itops.pt/"
+    - Active Directory: "https://itops.pt/"
   Security:
-    - Defense: "http://deanattali.com/beautiful-jekyll/"
-    - Offense: "http://deanattali.com/beautiful-jekyll/"
-    - Resources: "http://deanattali.com/beautiful-jekyll/"
+    - Defense: "https://itops.pt/"
+    - Offense: "https://itops.pt/"
+    - Resources: "https://itops.pt/"
   Scripting:
-    - Powershell 101: "http://deanattali.com/beautiful-jekyll/"
-    - Powershell DSC: "http://deanattali.com/beautiful-jekyll/"
-    - Infrastructure validation: "http://deanattali.com/beautiful-jekyll/"
-    - ARM Templates: "http://deanattali.com/beautiful-jekyll/"
+    - Powershell 101: "https://itops.pt/"
+    - Powershell DSC: "https://itops.pt/"
+    - Pester: "https://itops.pt/"
+    - ARM Templates: "https://itops.pt/"
   About Me: "aboutme"
   
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -70,18 +64,18 @@ avatar: "/img/powershell.png"
 author:
   name: Ricardo Garrido
   email: "info@ricardogarrido.pt"
-  facebook: yourname  # eg. daattali
-  github: ricardo-garrido    # eg. daattali
-  twitter: ricardosgarrido   # eg. daattali
-  reddit: yourname    # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: ricardogarrido  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
+  facebook: yourname  # eg. ricardogarrido
+  github: ricardo-garrido    # eg. ricardogarrido
+  twitter: ricardosgarrido   # eg. ricardogarrido
+  reddit: yourname    # eg. ricardogarrido
+  google-plus: +yourname   # eg. +ricardogarrido or 109424658772469020925
+  linkedin: ricardogarrido  # eg. ricardogarrido
+  xing: yourname      # eg. ricardogarrido
+  stackoverflow: yourlink  # eg. "3943160/ricardogarrido"
+  snapchat: yourname  # eg. ricardogarrido
+  instagram: yourname # eg. ricardogarrido
+  youtube: yourlink   # eg. user/ricardogarrido or channel/ricardogarrido
+  spotify: yourname   # eg. ricardogarrido
   telephone: yourphone   # eg. +14159998888
 
 # Select which links to show in the footer
@@ -231,7 +225,3 @@ prose:
 
 gems:
   - jekyll-paginate
-  - jekyll-menus
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
