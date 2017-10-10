@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://ricardo-garrido.github.io"
+url: "https://itops.pt"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: IT OPS
+title: IT DevSecOps
 
 # Short description of your site
-description: A collection of topics regarding hybrid cloud, configuration and security management.
+description: Architecture, Configuration and Security in the Hybrid Cloud
 
 # --- Navigation bar options --- #
 
@@ -37,11 +37,6 @@ navbar-links:
     - Defense: "https://itops.pt/"
     - Offense: "https://itops.pt/"
     - Resources: "https://itops.pt/"
-  Scripting:
-    - Powershell 101: "https://itops.pt/"
-    - Powershell DSC: "https://itops.pt/"
-    - Pester: "https://itops.pt/"
-    - ARM Templates: "https://itops.pt/"
   About Me: "aboutme"
   
 # Image to show in the navigation bar - image must be a square (width = height)
