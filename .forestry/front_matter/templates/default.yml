@@ -1,0 +1,13 @@
+---
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: page
+- name: show-avatar
+  label: Show avatar
+  type: boolean
+  hidden: false
+  default: true
