@@ -21,7 +21,7 @@ Set .
 
 ## dbatools
 
-The xSQLServer module contains DSC resources for deployment and configuration of SQL Server in a way that is fully compliant with the requirements of System Center.
+[dbatools](https://dbatools.io) is a fantastic Powershell Module that, as described in its website, is a **free** PowerShell module with over 350 SQL Server administration, best practice and migration commands included.
 
 [xSqlServer](https://github.com/PowerShell/xSQLServer)
 
