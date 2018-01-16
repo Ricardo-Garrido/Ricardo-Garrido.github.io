@@ -1,4 +1,6 @@
 ---
+pages:
+- scom-planning.md
 hide_body: false
 fields:
 - name: layout
