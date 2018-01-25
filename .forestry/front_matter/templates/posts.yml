@@ -1,5 +1,6 @@
 ---
 pages:
+- _posts/azure-key-vault-101.md
 - _posts/2017-04-22-Powershell-installing-remote-software.md
 - _posts/2017-04-10-Powershell-exceptions-everything-you-ever-wanted-to-know.md
 - _posts/2017-01-21-powershell-module-continious-delivery-pipeline.md
