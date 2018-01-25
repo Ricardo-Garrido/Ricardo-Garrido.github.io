@@ -36,18 +36,19 @@ Before getting started there is a few things that will be needed:
 
 The first task is to customize and install the Azure Key Vault using the following **PowerShell script**.
 
-| --- | --- |
-|  | # The name of the Azure subscription to install the Key Vault into |
-|  | $subscriptionName = 'MySubscription' |
-|  |   |
-|  | # The resource group that will contain the Key Vault to create to contain the Key Vault |
-|  | $resourceGroupName = 'MyKeyVaultRG' |
-|  |   |
-|  | # The name of the Key Vault to install |
-|  | $keyVaultName = 'MyKeyVault' |
-|  |   |
-|  | # The Azure data center to install the Key Vault to |
-|  | $location = 'southcentralus' |
+```powershell
+
+# The name of the Azure subscription to install the Key Vault into |
+$subscriptionName = 'MySubscription' |
+
+# The resource group that will contain the Key Vault to create to contain the Key Vault |
+$resourceGroupName = 'MyKeyVaultRG' |
+
+# The name of the Key Vault to install |
+$keyVaultName = 'MyKeyVault' |
+
+# The Azure data center to install the Key Vault to |
+$location = 'southcentralus' |
 |  |   |
 |  | # These are the Azure AD users that will have admin permissions to the Key Vault |
 |  | $keyVaultAdminUsers = @('Joe Boggs','Jenny Biggs') |
@@ -74,7 +75,7 @@ The first task is to customize and install the Azure Key Vault using the followi
 |  |     Set-AzureRmKeyVaultAccessPolicy -VaultName $keyVaultName -ResourceGroupName $resourceGroupName -ObjectId $UserObjectId \` |
 |  |         -PermissionsToKeys all -PermissionsToSecrets all -PermissionsToCertificates all |
 |  | } |
-
+```
 [**view raw**](https://gist.github.com/PlagueHO/24bcab61df4741a0c388d3d0467d192a/raw/6faf2b08d745e6a90aa7ecdec352ca59dd9ee979/New-AzureKeyVault.ps1)[**New-AzureKeyVault.ps1**](https://gist.github.com/PlagueHO/24bcab61df4741a0c388d3d0467d192a#file-new-azurekeyvault-ps1) hosted with ![❤](https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/2764.svg) by [**GitHub**](https://github.com/)
 
 But first, the variables in the **PowerShell script** need to be customized to suit. The variables in the **PowerShell script** that needs to be set are:
