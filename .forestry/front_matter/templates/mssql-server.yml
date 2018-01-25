@@ -1,5 +1,6 @@
 ---
 pages:
+- blog/test.md
 - sql-server-configuration.md
 hide_body: false
 fields:
