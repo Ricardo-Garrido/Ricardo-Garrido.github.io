@@ -1,5 +1,6 @@
 ---
 pages:
+- system-center-operations-manager.md
 - scom-planning.md
 hide_body: false
 fields:
