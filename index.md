@@ -8,7 +8,6 @@ share-img: ''
 show-avatar: false
 comments: false
 social-share: false
-published: false
 ---
 # Popular reference pages
 
