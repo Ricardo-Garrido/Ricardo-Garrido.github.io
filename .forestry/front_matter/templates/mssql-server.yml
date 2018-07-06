@@ -24,4 +24,3 @@ fields:
   default: ''
 pages:
 - sql-server-configuration.md
-- blog/test.md

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: PowerShell
+published: false
 ---
 
 # Popular reference pages
