@@ -1,15 +1,6 @@
 ---
-pages:
-- _posts/2018-01-25-azure-key-vault-101.md
-- _posts/2017-04-22-Powershell-installing-remote-software.md
-- _posts/2017-04-10-Powershell-exceptions-everything-you-ever-wanted-to-know.md
-- _posts/2017-01-21-powershell-module-continious-delivery-pipeline.md
-- _posts/2017-01-13-powershell-variable-substitution-in-strings.md
-- _posts/2016-10-25-Powershell-Operational-Validation-Framework.md
-- _posts/2016-10-21-powershell-installing-msi-files.md
-- _posts/2016-10-07-Common-issues-admins-have-when-using-Powershell.md
-- _posts/2016-08-28-PowerShell-variables-to-remote-commands.md
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -56,3 +47,13 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- _posts/2016-10-21-powershell-installing-msi-files.md
+- _posts/2016-08-28-PowerShell-variables-to-remote-commands.md
+- _posts/2016-10-07-Common-issues-admins-have-when-using-Powershell.md
+- _posts/2018-01-25-azure-key-vault-101.md
+- _posts/2017-01-13-powershell-variable-substitution-in-strings.md
+- _posts/2017-01-21-powershell-module-continious-delivery-pipeline.md
+- _posts/2017-04-10-Powershell-exceptions-everything-you-ever-wanted-to-know.md
+- _posts/2017-04-22-Powershell-installing-remote-software.md
+- _posts/2016-10-25-Powershell-Operational-Validation-Framework.md

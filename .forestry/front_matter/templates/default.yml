@@ -1,8 +1,6 @@
 ---
-pages:
-- system-center-operations-manager.md
-- scom-planning.md
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -14,3 +12,6 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- scom-planning.md
+- system-center-operations-manager.md

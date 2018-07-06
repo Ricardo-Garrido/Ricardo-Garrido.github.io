@@ -1,8 +1,6 @@
 ---
-pages:
-- blog/test.md
-- sql-server-configuration.md
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -24,3 +22,6 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+pages:
+- sql-server-configuration.md
+- blog/test.md
