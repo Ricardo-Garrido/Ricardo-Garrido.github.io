@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PowerShell
+title: Welcome
 ---
 
 # Popular reference pages
