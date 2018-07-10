@@ -26,14 +26,14 @@ description: IT DevSecOps
 
 # List of links in the navigation bar
 navbar-links:
-  Automation:
+  Notebooks:
+    - Active Directory: "https://itops.pt/"
+    - Enterprise Vault: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
+  Technologies:
     - Active Directory: "https://itops.pt/"
-    - Active Directory: "https://itops.pt/"
-  Configuration:
-    - Active Directory: "https://itops.pt/"
-    - Active Directory: "https://itops.pt/"
+    - Azure: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
     - Active Directory: "https://itops.pt/"
   Security:
