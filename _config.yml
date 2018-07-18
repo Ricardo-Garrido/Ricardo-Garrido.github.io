@@ -26,7 +26,7 @@ description: IT DevSecOps
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "https://itops.pt/blog"
+  Blog: "https://itops.pt/blog/"
   Notebooks:
     - Active Directory: "https://itops.pt/"
     - Enterprise Vault: "https://itops.pt/"
