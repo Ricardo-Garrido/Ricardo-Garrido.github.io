@@ -1,4 +1,5 @@
 ---
+label: default
 hide_body: false
 is_partial: false
 fields:
@@ -12,6 +13,3 @@ fields:
   type: boolean
   hidden: false
   default: true
-pages:
-- scom-planning.md
-- system-center-operations-manager.md
