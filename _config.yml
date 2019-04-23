@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "pt-PT"
+locale                   : "en-US"
 title                    : "Architecture, Configuration and Security in the Hybrid Cloud"
 title_separator          : "-"
-name                     : "John Doe"
-description              : "Scripting and Automation"
+name                     : "Ricardo Garrido"
+description              : "Security and Configuration Automation"
 url                      : https://itops.pt # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ricardo-garrido/ricardo-garrido.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -32,7 +32,7 @@ comments:
   # receiver                : "https://lwacommentsfunc18954.azurewebsites.net/api/PostComment"
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # lazywinadmin # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
