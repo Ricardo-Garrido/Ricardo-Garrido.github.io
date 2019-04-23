@@ -1,6 +1,8 @@
 ---
 layout: post
 toc: true
+toc_label: "Table of content"
+toc_sticky: true
 show-avatar: true
 comments: true
 social-share: true
