@@ -1,5 +1,6 @@
 ---
 layout: post
+toc: true
 show-avatar: true
 comments: true
 social-share: true
