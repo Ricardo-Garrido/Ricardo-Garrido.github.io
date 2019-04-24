@@ -89,26 +89,3 @@
     font-weight: 700;
   }
 }
-
-/* --- Navbar --- */
-
-.avatar-container {
-  opacity: 1;
-  position: absolute;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
-  left: 50%;
-  width: 50px;
-  margin-top: -25px;
-}
-.avatar-container  .avatar-img-border {
-  width: 100%;
-  margin-left: -50%;
-  display: inline-block;
-}
-.avatar-container  .avatar-img {
-  width: 100%;
-  border-radius: 50%;
-  display: block;
-}
