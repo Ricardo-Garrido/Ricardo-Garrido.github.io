@@ -89,11 +89,11 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : ricardosantosgarrido
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : ricardosgarrido
+#facebook:
+#  username               :
+#  app_id                 :
+#  publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -129,7 +129,7 @@ author:
 #      url: "https://mvp.microsoft.com/en-us/PublicProfile/X"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ricardosantosgarrido"
+      url: "https://twitter.com/ricardosgarrido"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
