@@ -138,7 +138,7 @@ author:
       url: "https://github.com/ricardo-garrido"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ricardosantosgarrido/"
+      url: "https://www.linkedin.com/in/ricardogarrido/"
 #    - label: "RSS"
 #      icon: "fas fa-fw fa-rss-square"
 #      url: "https://feeds.feedburner.com/#"
@@ -158,11 +158,11 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
       # url:
 
 
